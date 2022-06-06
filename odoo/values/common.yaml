@@ -1,0 +1,10 @@
+odooEmail: postmaster@erp.omnidapps.com
+existingSecret: odoo
+postgresql:
+  auth:
+    existingSecret: postgresql
+resources:
+  limits: {}
+  requests:
+    memory: 512Mi
+    cpu: 0m
