@@ -1,0 +1,5 @@
+route:
+  enabled: false
+podSecurityContext:
+  fsGroup: 0
+  fsGroupChangePolicy: "OnRootMismatch"
